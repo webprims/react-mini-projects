@@ -10,9 +10,11 @@ The goal is simple: learn React by building small, focused projects instead of o
 - Props
 - `useState`
 - `useEffect`
+- `useMemo`
 - Forms and controlled inputs
 - Conditional rendering
 - Lists and keys
+- Search and filtering
 - Fetching API data
 - Basic reusable components
 
@@ -25,8 +27,11 @@ react-mini-projects/
 ├── 03-todo-list/
 ├── 04-form-example/
 ├── 05-api-fetch/
-└── 06-theme-toggle/
+├── 06-theme-toggle/
+└── 07-search-filter/
 ```
+
+The latest `07-search-filter` example demonstrates live text search, level filtering, derived state, and `useMemo` with a simple course finder.
 
 Each folder contains a focused example that can be copied into a standard React/Vite project.
 
